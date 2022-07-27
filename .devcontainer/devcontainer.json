@@ -1,0 +1,11 @@
+{
+    "name": "Go",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "golang",
+    "workspaceFolder": "/go/src",
+    "extensions": [
+        "golang.Go",
+        "ms-azuretools.vscode-docker"
+    ],
+    "remoteUser": "root"
+}
