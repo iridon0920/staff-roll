@@ -3,5 +3,5 @@ services:
   golang:
     build: .
     volumes:
-      - ../:/go/src
+      - .:/go/src
     tty: true
