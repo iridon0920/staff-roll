@@ -3,6 +3,11 @@
     "dockerComposeFile": "../docker-compose.yml",
     "service": "golang",
     "workspaceFolder": "/go/src",
+    "features": {
+        "git": {
+            "version": "latest"
+        }
+    },
     "extensions": [
         "golang.Go",
         "ms-azuretools.vscode-docker"
